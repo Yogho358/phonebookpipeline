@@ -1,1 +1,10 @@
 build
+frontend
+src/App.js
+src/App.test.js
+src/components/Notification.js
+src/components/Persons.js
+src/components/PersonForm.js
+src/index.js
+src/components/Error.js
+src/components/Person.js

@@ -15,6 +15,13 @@ morgan.token('person',function(request,response){
 })
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms :person'))
 
+app.get('/health',(req,res) => {
+  res.send('ok')
+})
+
+app.get('/version',(req,res) => {
+  res.send('1')
+})
 
 app.delete('/api/persons/:id',(request,response,next) => {
   Person.findByIdAndRemove(request.params.id)

@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint":"eslint .",
+    "lint": "eslint .",
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "git push heroku master",
-    "logs:prod": "heroku logs --tail"
+    "logs:prod": "heroku logs --tail",
+    "cypress:open": "cypress open",
+    "test:e2e":"cypress run",
+    "build:ui": "rm -rf build && cd frontend && rm -rf build && npm run build && cp -r build ../"
   },
   "repository": {
     "type": "git",
@@ -26,6 +29,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "cypress": "^7.1.0",
     "eslint": "^7.14.0",
     "nodemon": "^2.0.6"
   }
