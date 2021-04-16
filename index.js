@@ -20,7 +20,7 @@ app.get('/health',(req,res) => {
 })
 
 app.get('/version',(req,res) => {
-  res.send('2')
+  res.send('3')
 })
 
 app.delete('/api/persons/:id',(request,response,next) => {

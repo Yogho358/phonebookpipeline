@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,cACE,WAAW,CACX,kBACF,CAEA,OACE,SAAU,CACV,kBACF","file":"main.418a0999.chunk.css","sourcesContent":[".notification{\n  color:green;\n  border-style: solid;\n}\n\n.error{\n  color: red;\n  border-style: solid;\n}"]}

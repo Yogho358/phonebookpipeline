@@ -22,10 +22,6 @@ const update=(id,newObject)=>{
 }
 
 
-export default {
-    getAll,
-    create,
-    remove,
-    update,
-    
-}
+const e={getAll, create, remove, update}
+
+export default e

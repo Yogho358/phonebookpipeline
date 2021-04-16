@@ -10,6 +10,7 @@ module.exports = {
     'sourceType': 'module'
   },
   'rules': {
+    'import/no-anonymous-default-export': 0,
     'indent': [
       'error',
       2
