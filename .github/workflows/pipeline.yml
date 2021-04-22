@@ -49,6 +49,7 @@ jobs:
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             DEFAULT_BUMP: patch
+            RELEASE_BRANCHES: main
 
         - name: Slack fail
           uses: 8398a7/action-slack@v3
