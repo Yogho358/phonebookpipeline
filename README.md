@@ -1,1 +1,1 @@
-https://blooming-river-00617.herokuapp.com
+https://github.com/Yogho358/full-stack-open-pokedex
